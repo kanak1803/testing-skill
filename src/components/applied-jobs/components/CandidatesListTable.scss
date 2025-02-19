@@ -1,0 +1,208 @@
+.job-block .content {
+  position: relative;
+  padding-left: 0px !important;
+  min-height: 51px;
+}
+
+.ls-widget .widget-content p {
+  position: relative;
+  font-size: 14px;
+  line-height: 26px;
+  color: #5c6770;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.shadcn-toggle {
+  position: relative;
+  width: 42px;
+  height: 25px;
+  background-color: #e0e0e0; /* Default (inactive) color */
+  border-radius: 9999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  transition: background-color 0.2s;
+
+  &.checked {
+    background-color: #4caf50; /* Active (green) color */
+  }
+
+  &::before {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    transform: translateX(0); /* Default (inactive) position */
+  }
+
+  &.checked::before {
+    transform: translateX(17px); /* Move to the right when active */
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .page-wrapper.dashboard {
+    padding-left: 220px !important;
+  }
+}
+
+.post-tags li {
+  position: relative;
+  background: #f0f5f7;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.default-table thead th {
+  text-align: center;
+  position: relative;
+  padding: 20px 30px;
+  font-size: 16px;
+  color: var(--primary-color);
+  font-weight: 500;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.default-table tr td {
+  position: relative;
+  padding: 15px 5px;
+  font-size: 14px;
+  color: #696969;
+  font-weight: 400;
+}
+
+.wrapping-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapping-skills a {
+  position: relative;
+  background: #f0f5f7;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.icon-center {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+@media only screen and (width <= 1600px) {
+  .dashboard .dashboard-outer {
+    padding: 40px 40px 0 70px;
+  }
+}
+
+.ls-widget .widget-title {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: none;
+  padding: 0px 30px 0px;
+  min-height: 60px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 450px; /* Adjust this value to set the desired width */
+  position: relative;
+}
+
+.search-bar .icon {
+  font-size: 1.2rem;
+  color: #6c757d; /* Adjust color as needed */
+}
+
+.search-bar .icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.search-bar .form-control {
+  padding-left: 35px; /* Add space to avoid overlapping icon */
+}
+
+.tooltip-container {
+  position: relative; /* Ensure relative positioning for the tooltip */
+  display: inline-block; /* Allow inline-block behavior */
+}
+
+.tooltip-trigger {
+  cursor: pointer; /* Pointer cursor for better user experience */
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.tooltip-content {
+  display: none; /* Hidden by default */
+  position: absolute; /* Absolute positioning relative to the container */
+  top: -45px; /* Adjust tooltip position */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f0f5f7;
+  color: #6c757d;
+  padding: 6px 6px;
+  border-radius: 10px;
+  white-space: nowrap; /* Prevent line wrapping */
+  font-size: 12px;
+  z-index: 1000;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.tooltip-container:hover .tooltip-content {
+  display: block; /* Show tooltip on hover */
+}
+
+.wrapping-skills a {
+  text-decoration: none;
+}
+
+@media only screen and (width <= 1266px) {
+  .page-wrapper.dashboard {
+    padding-left: 0px !important;
+  }
+}
+
+@media (width <= 1265px) {
+  .show-1023 {
+    display: block;
+    order: 0 !important;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1600px) {
+  .page-wrapper.dashboard {
+    padding-left: 230px;
+  }
+}
+.main-header.fixed-header {
+  position: fixed;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (width <= 1266px) {
+  .page-wrapper.dashboard {
+    padding-left: 0px !important;
+  }
+}
+
+@media (width <= 1265px) {
+  .show-1023 {
+    display: block;
+    order: 0 !important;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}

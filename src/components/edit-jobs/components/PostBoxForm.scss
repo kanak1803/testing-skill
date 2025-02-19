@@ -1,0 +1,51 @@
+.form-group-button {
+    display: flex !important; /* Enables flexbox layout */
+    justify-content: flex-end !important; /* Aligns child elements (button) to the right */
+    align-items: center !important; /* Centers items vertically within the container */
+  }
+
+  .post-job-button{
+    display: flex !important;
+    /* align-items: end; */
+    justify-content: flex-end !important;
+}
+  
+.job-desc-ai{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.job-desc-ai label {
+  font-size: 15px;
+  line-height: 20px;
+  color: #202124;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.ai-button{
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 10px 20px 10px 20px;
+}
+
+.w-\[90vw\] {
+  width: 73vw !important;
+}
+
+.w-full {
+  width: 72%;
+}
+
+.error{
+  color: red;
+  font-size: 15px;
+}

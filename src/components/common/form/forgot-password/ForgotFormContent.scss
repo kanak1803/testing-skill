@@ -1,0 +1,29 @@
+.blueLinks {
+    color: #044aab;
+    font-weight: 500;
+    font-weight: bolder;
+}
+
+p, .text {
+    font-size: 12px;
+    color: #696969;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.login-form .bottom-box {
+    position: relative;
+    /* padding-top: 12px; */
+    text-align: center;
+}
+
+.login-form .form-group .theme-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.error-message{
+    color: red !important;
+    font-size: 16px;
+}

@@ -1,0 +1,34 @@
+.right-align{
+    text-align: end;
+}
+
+/* Style for the Date of Birth input */
+.input-date {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;
+    background-color: #f0f5f7;
+    color: #696969;
+}
+  
+  .input-date:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .error-field {
+    border-color: red !important;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .pic-text{
+    width: 213px;
+    text-align: justify;
+  }

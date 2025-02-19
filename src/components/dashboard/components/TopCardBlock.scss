@@ -1,0 +1,22 @@
+.ui-item {
+    position: relative;
+    height: 110px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #ecedf2;
+    -webkit-box-shadow: 0 6px 15px #404f680d;
+    box-shadow: 0 6px 15px #404f680d;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,45 @@
+.auto-container {
+    position: static;
+    max-width: 1310px;
+    padding: 50px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h2{
+    font-size: 30px !important;
+}
+
+.contact-section .contact-form {
+    max-width: 850px;
+    margin: 0 auto;
+    border: 1px solid #ecedf2;
+    border-radius: 8px;
+    padding: 20px 55px 70px;
+}
+
+.bluecolour{
+    color: #216cd3;
+}
+
+.theme-btn[disabled] {
+    // opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.verify-title{
+    color: black !important;
+}
+
+.verify-email-id{
+    color: #216cd3 !important;
+}
+
+.verify-email-otp-div{
+    padding-bottom: 10px;
+}
+
+.verify-input-labels{
+    font-size: 17px !important;
+    color: #216cd3 !important;
+}

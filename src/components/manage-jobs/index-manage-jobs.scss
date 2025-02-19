@@ -1,0 +1,34 @@
+/* Default padding for screens greater than 1266px */
+.page-wrapper.dashboard {
+  padding-left: 211px;
+}
+
+/* For screens less than or equal to 1600px */
+@media only screen and (max-width: 1600px) {
+  .page-wrapper.dashboard {
+    padding-left: 211px;
+  }
+}
+
+/* For screens less than or equal to 1266px, overwrite padding-left to 0 */
+@media only screen and (max-width: 1266px) {
+  .page-wrapper.dashboard {
+    padding-left: 0px;
+  }
+}
+
+.manage-job-table .package,
+.manage-job-table .colored,
+.manage-job-table .applied {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1600px) {
+  .dashboard .dashboard-outer {
+    padding: 45px 40px 0 50px !important;
+  }
+}

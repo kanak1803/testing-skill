@@ -1,0 +1,194 @@
+.main-header .logo {
+  position: relative;
+  z-index: 9;
+  padding: 17px 5px !important;
+  margin-right: 0px !important;
+  transition: all 300ms ease;
+}
+
+.dashboard-option .thumb {
+  height: 43px;
+  width: 51px;
+  border-radius: 79%;
+  overflow: hidden;
+}
+
+.dashboard-option .dropdown-menu {
+  transform: none !important;
+  top: 100% !important;
+  left: auto !important;
+  right: 0 !important;
+  min-width: 225px;
+  margin-top: 8px;
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 8px;
+  padding: 5px 10px 5px;
+}
+.main-header .main-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.Company-Name p {
+  font-size: 13px;
+  color: black !important;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.shared-icon {
+  font-size: 25px;
+}
+
+// .scrolling-text {
+//   width: 100%;
+//   white-space: nowrap;
+//   overflow: hidden;
+//   box-sizing: border-box;
+//   animation: scrollText 10s linear infinite;
+// }
+
+// @keyframes scrollText {
+//   0% {
+//     transform: translateX(100%);
+//   }
+//   100% {
+//     transform: translateX(-100%);
+//   }
+// }
+
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7px;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative; /* Ensure child elements are positioned relative to the container */
+}
+
+.marquee-container {
+  flex: 1; /* Take up the remaining space between left and right sections */
+  padding: 0 20px; /* Add padding to create spacing from icons */
+  overflow: hidden; /* Ensure no overflow */
+  white-space: nowrap;
+}
+
+.scrolling-text {
+  display: inline-block;
+  animation: scrollText 10s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.main-header .logo-box {
+  position: relative;
+  width:220px;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+ol, ul {
+   padding-left: 0rem !important; 
+}
+
+/* Style for the avatar image to make it circular with a white background */
+.thumb {
+  border-radius: 50%; /* Makes the image circular */
+  background-color: white; /* Sets the background color to white */
+  border: 0px solid #ddd; /* Optional: Adds a subtle border around the image */
+  object-fit: cover; /* Ensures the image covers the circular container properly */
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #fff !important; 
+  --bs-btn-border-color: #fff !important; 
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px #00000020;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.dropdown-toggle:after {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid #0000;
+  border-bottom: 0;
+  border-left: .3em solid #0000;
+  color: black;
+}
+
+.btn:hover {
+  color: #fff !important;
+  background-color: #fff !important;
+  border-color:#fff !important;
+}
+
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+  color:#fff !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.dropdown-menu show {
+  position: absolute;
+  inset: 0px 0px auto auto;
+  transform: translate(0px, 78px);
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  width: 197px !important; /* Set the width */
+  position: absolute; /* Position it absolutely */
+  inset: 0px 0px auto auto; /* Defines positioning within its container */
+  transform: translate3d(0px, 78px, 0px) !important; /* Adjusts the dropdown position */
+  background-color: white; /* Optional: Set the background color */
+  border: 1px solid #ddd; /* Optional: Border around the dropdown */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better visibility */
+  z-index: 1000; /* Ensure the dropdown is above other elements */
+  text-align: center !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color:#fff !important;
+  background-color:#0a53be !important;
+  align-items: center;
+  width: 172px;
+  color: var(--bs-dropdown-link-hover-color);
+  background-color: var(--bs-dropdown-link-hover-bg);
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+/* Remove text decoration from the links */
+.no-underline-link {
+  text-decoration: none !important;
+}

@@ -1,0 +1,134 @@
+.default-table tr td {
+  position: relative;
+  padding: 15px 5px !important;
+  font-size: 14px;
+  color: #696969;
+  font-weight: 400;
+}
+.job-block .content {
+  position: relative;
+  padding-left: 0px;
+  min-height: 51px;
+}
+
+.ls-widget .widget-content p {
+  position: relative;
+  font-size: 14px;
+  line-height: 26px;
+  color: #5c6770;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.shadcn-toggle {
+  position: relative;
+  width: 42px;
+  height: 23px;
+  background-color: #e0e0e0; /* Default (inactive) color */
+  border-radius: 9999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  transition: background-color 0.2s;
+
+  &.checked {
+    background-color: #4caf50; /* Active (green) color */
+  }
+
+  &::before {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    transform: translateX(0); /* Default (inactive) position */
+  }
+
+  &.checked::before {
+    transform: translateX(17px); /* Move to the right when active */
+  }
+}
+
+.toggle-center {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.job-block h4 a,
+.job-block .h4 a {
+  color: #202124;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.ls-widget .widget-title {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: none;
+  padding: 15px 30px;
+  min-height: 60px;
+}
+
+
+.ls-widget .widget-title {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: none;
+  padding: 0px 30px 0px;
+  min-height: 60px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 450px; /* Adjust this value to set the desired width */
+  position: relative; 
+}
+
+.search-bar .icon {
+  font-size: 1.2rem;
+  color: #6c757d; /* Adjust color as needed */
+}
+
+.search-bar .icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.search-bar .form-control {
+  padding-left: 35px; /* Add space to avoid overlapping icon */
+}

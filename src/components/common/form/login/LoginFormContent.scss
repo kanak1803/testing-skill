@@ -1,0 +1,193 @@
+.login-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0 50px !important;
+  overflow: auto;
+}
+
+.default-form .form-group input[type="text"],
+.default-form .form-group input[type="password"],
+.default-form .form-group input[type="number"],
+.default-form .form-group input[type="email"],
+.default-form .form-group input[type="url"] {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 50px;
+  line-height: 30px;
+  padding: 15px 20px;
+  font-size: 15px;
+  color: #696969;
+  background-color: #f0f5f7;
+  border: 1px solid #f0f5f7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transition: all 300ms ease;
+}
+
+.login-form .field-outer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+login-form .form-group .theme-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.login-form .bottom-box {
+  position: relative;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.login-form .form-group .theme-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.login-form .bottom-box .divider {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 10px;
+    color: #696969;
+    background: #ffffff;
+    margin: 10px 0 25px;
+}
+
+.social-btn-two {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    color: inherit;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: inherit;
+    border: 1px solid #fff;
+    font-weight: 500;
+    padding: 10px 30px;
+    color: var(--primary-color);
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+p, .text {
+    font-size: 13px;
+    color: #696969;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.password-input{
+  display: flex;
+}
+
+.button-eye-icon{
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.error-message{
+  color: red;
+  font-size: 15px;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+input[type="password"], input[type="text"] {
+  width: 100%;
+  padding-right: 40px; /* Make space for the icon */
+}
+
+.eye-icon-button {
+  position: absolute;
+  right: 10px; /* Position the icon towards the right edge */
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.eye-icon-button i {
+  font-size: 18px; /* Adjust icon size if needed */
+}
+
+.btn-signup a{
+  color: #1967d2!important;
+}
+
+.login-form .text {
+  position: relative;
+  font-size: 14px;
+  line-height: 19px;
+  color: #696969;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.social-btn-two {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  color: inherit;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: inherit;
+  border: 1px solid #fff;
+  font-weight: 500;
+  padding: 10px 30px;
+  color: var(--primary-color);
+  line-height: 25px;
+  margin-bottom: 0px;
+}
+
+p, .text {
+  font-size: 12px;
+  color: #696969;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.loader {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

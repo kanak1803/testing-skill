@@ -1,0 +1,70 @@
+.login-form .text a {
+    color: #1565c0 !important;
+    font-weight: 500;
+}
+
+.password-input{
+    display: flex;
+}
+
+.button-eye-icon{
+    padding-left: 5px;
+    font-size: 20px;
+    
+}
+
+.error-message{
+    color: red;
+    font-size: 15px;
+}
+.password-input-wrapper {
+    position: relative;
+  }
+  
+  input[type="password"], input[type="text"] {
+    width: 100%;
+    padding-right: 40px; /* Make space for the icon */
+  }
+  
+  .eye-icon-button {
+    position: absolute;
+    right: 10px; /* Position the icon towards the right edge */
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .eye-icon-button i {
+    font-size: 18px; /* Adjust icon size if needed */
+  }
+  
+  .termsandpolicy p{
+    font-size:12px !important;
+  }
+
+  .social-btn-two {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    color: inherit;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: inherit;
+    border: 1px solid #fff;
+    font-weight: 500;
+    padding: 9px 26px;
+    color: var(--primary-color);
+    line-height: 25px;
+    margin-bottom: 5px !important;
+}
+
+.login-form .form-group .theme-btn {
+  display: block;
+  width: 100%;
+   margin-bottom: 0px !important; 
+}

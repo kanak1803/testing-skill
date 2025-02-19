@@ -1,0 +1,20 @@
+.btn-style-one:hover {
+  color: #fff;
+  background-color: #0146a6;
+}
+
+@media only screen and (width <= 1266px) {
+  .page-wrapper.dashboard {
+    padding-left: 0px !important;
+  }
+}
+
+@media (width <= 1265px) {
+  .show-1023 {
+    display: block;
+    order: 0 !important;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
